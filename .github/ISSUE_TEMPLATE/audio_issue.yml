@@ -1,0 +1,24 @@
+name: Audio Issue
+description: Report audio-related problems (crackling, latency, etc.)
+title: "[Audio] "
+labels: ["audio"]
+body:
+  - type: input
+    id: driver
+    attributes:
+      label: Audio Driver (ASIO, WASAPI, etc.)
+
+  - type: input
+    id: device
+    attributes:
+      label: Audio Device
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Description
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce

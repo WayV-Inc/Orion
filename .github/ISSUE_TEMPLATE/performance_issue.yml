@@ -1,0 +1,34 @@
+name: Performance Issue
+description: Report performance problems (CPU, latency, etc.)
+title: "[Performance] "
+labels: ["performance"]
+body:
+  - type: input
+    id: cpu
+    attributes:
+      label: CPU
+
+  - type: input
+    id: ram
+    attributes:
+      label: RAM
+
+  - type: input
+    id: audio
+    attributes:
+      label: Audio Interface / Driver
+
+  - type: input
+    id: buffer
+    attributes:
+      label: Buffer Size / Sample Rate
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Description
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
